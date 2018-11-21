@@ -1,16 +1,12 @@
-.intro, .intro-container {
-  box-sizing: border-box;
-  height: 700px;
-}
-
 .intro {
-  background-image: url(../images/intro.jpg);
+  background-color: rgba(0, 0, 0, 0);
+  background-image: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .7) 95%),
+                    url("../images/intro.jpg");
   background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll, fixed;
+  background-position: 0 0%, center center;
+  padding: 200px;
+  padding-top: 100px;
   margin-top: 68px;
-}
-
-.intro-container {
-  background: rgba(0, 0, 0, 0.5);
-  color: white;
-  padding-top: 9em;
 }
