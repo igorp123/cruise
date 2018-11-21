@@ -1,0 +1,24 @@
+.reviews-image {
+  width: 159px;
+  height: 150px;
+  border-radius: 100px;
+  border: 1px solid navy;
+  float: left;
+  margin-right: 50px;
+}
+
+.reviews-section {
+  padding: 3em 2em;
+  border-radius: 50px;
+  border: 1px solid navy;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.reviews-section p:after {
+  content: "";
+  visibility: hidden;
+  display: block;
+  height: 0;
+  clear: both;
+}

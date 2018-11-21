@@ -1,0 +1,16 @@
+.button {
+  padding: 15px 30px;
+  display: inline-block;
+  border-radius: 10px;
+  margin: auto;
+  text-decoration: none;
+  text-shadow: 2px 1px 1px rgba(0, 0, 0, 0.15)
+  font-weight: bold;
+  color: white;
+  font-size: 1.2em;
+}
+
+.blue-button {
+  background-color: navy
+}
+

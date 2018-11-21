@@ -1,0 +1,9 @@
+.order-input {
+ width: 50%;
+ height: 2em;
+ margin-bottom: 2em;
+ font-size: 1em;
+ padding-left: 10px;
+ color: navy;
+ border-color: navy;
+}
