@@ -1,4 +1,12 @@
 .description-title {
   font-size: 1.2em;
   margin-bottom: 1em;
+  text-align: center;
+}
+
+.description .container {
+  width: 100%;
+  background: whitesmoke;
+  padding: 30px 100px;
+  box-sizing: border-box;
 }

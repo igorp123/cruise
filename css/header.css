@@ -36,7 +36,7 @@
   font-weight: bold;
 }
 
-@media (max-width: 640px) {
+@media (max-width: 720px) {
   .header {
     position: inherit;
     width: auto;
@@ -48,11 +48,17 @@
   .header-nav,
   .header-logo {
     float: none;
+    text-align: center;
+  }
+
+  .header-logo {
+    display:  none;
   }
 }
 
-@media (max-width: 360px) {
+@media (max-width: 640px) {
   .header-nav-item {
     display: block;
+    text-align: center;
   }
 }

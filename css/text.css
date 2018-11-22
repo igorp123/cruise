@@ -18,3 +18,11 @@ body {
   font-weight: normal;
   font-size: 2em;
 }
+
+.text-small {
+  font-size: .9em;
+}
+
+.text-right {
+  text-align: right;
+}

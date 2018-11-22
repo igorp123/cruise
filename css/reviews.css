@@ -1,21 +1,30 @@
 .reviews-image {
-  width: 159px;
+  width: 150px;
   height: 150px;
-  border-radius: 100px;
-  border: 1px solid navy;
+  border-radius: 75px;
+  object-fit: cover;
+  box-shadow: 1px 1px 10px #404040;
+}
+
+.reviews-image-section {
   float: left;
-  margin-right: 50px;
+  margin-right: 2em;
+  margin-bottom: 1em;
+}
+
+.reviews-section .text-small{
+  font-weight: bold;
 }
 
 .reviews-section {
-  padding: 3em 2em;
+  padding: 2em;
   border-radius: 50px;
   border: 1px solid navy;
   width: 80%;
   margin: 0 auto;
 }
 
-.reviews-section p:after {
+.reviews-section:after {
   content: "";
   visibility: hidden;
   display: block;
